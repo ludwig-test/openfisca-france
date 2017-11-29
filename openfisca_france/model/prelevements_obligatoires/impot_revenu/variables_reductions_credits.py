@@ -2268,7 +2268,7 @@ class f7ui(Variable):
     value_type = int
     unit = 'currency'
     entity = FoyerFiscal
-    end = '2008-12-31'
+    # end = '2008-12-31'
     definition_period = YEAR
 
 
@@ -3015,6 +3015,50 @@ class f7th(Variable):
 #    start_date = date(2013, 1, 1)
     definition_period = YEAR
 
+class f7ti(Variable):
+    cerfa_field = u"7TI"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2014, 1, 1)
+    definition_period = YEAR
+
+class f7tj(Variable):
+    cerfa_field = u"7TJ"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2015, 1, 1)
+    definition_period = YEAR
+
+class f7tk(Variable):
+    cerfa_field = u"7TK"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2015, 1, 1)
+    definition_period = YEAR
+
+class f7tm(Variable):
+    cerfa_field = u"7TM"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2016, 1, 1)
+    definition_period = YEAR
+
+class f7to(Variable):
+    cerfa_field = u"7TO"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2016, 1, 1)
+    definition_period = YEAR
 
 class f7ux(Variable):
     cerfa_field = u"7UX"
@@ -3025,6 +3069,32 @@ class f7ux(Variable):
 #    start_date = date(2013, 1, 1)
     definition_period = YEAR
 
+class f7vm(Variable):
+    cerfa_field = u"7VM"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2016, 1, 1)
+    definition_period = YEAR
+
+class f7vn(Variable):
+    cerfa_field = u"7VN"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2016, 1, 1)
+    definition_period = YEAR
+
+class f7vp(Variable):
+    cerfa_field = u"7VP"
+    value_type = int
+    unit = 'currency'
+    entity = FoyerFiscal
+    label = u"Investissements forestiers"
+#    start_date = date(2016, 1, 1)
+    definition_period = YEAR
 
 class f7tg(Variable):
     cerfa_field = u"7TG"
